@@ -1,0 +1,26 @@
+
+
+.item {
+    width: 480px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #22356F;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 28px;
+}
+
+.par {
+    color: rgba(34, 53, 111, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}

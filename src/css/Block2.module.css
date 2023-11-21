@@ -1,0 +1,35 @@
+.Block2 {
+    width: 100vw;
+    height: 607px;
+    background: #62D0DF;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TEXTS */
+.texts {
+    margin-top: 151px;
+    margin-left: 178px;
+}
+
+.title {
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.paragraph {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 75px;
+}
+
+.paragraph span {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}

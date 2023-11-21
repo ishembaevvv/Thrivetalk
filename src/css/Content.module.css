@@ -1,0 +1,100 @@
+.Content {
+    width: 100vw;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 164px;
+}
+
+/* TEXTS */
+.texts {
+    margin-left: 175px;
+}
+
+.logo {
+    color: #62D0DF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.title {
+    color: #22356F;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.paragraph {
+    color: #22356F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* BTNS  */
+.btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    position: relative;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: transform .5s;
+    transform-origin: 0 0;
+}
+
+.btn_gold {
+    background: #F9B640;
+    color: #fff;
+}
+
+.btn::before {
+    transform: scaleX(0);
+}
+
+.btn_gold:hover::before {
+    content: "WHO AM I";
+    background: white;
+    color: #F9B640;
+    transform: scaleX(1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn_white {
+    background: transparent;
+    color: #F9B640;
+    margin-left: 38px;
+}
+
+.btn_white:hover::before {
+    content: "WHAT DO I DO";
+    background: #F9B640;
+    color: white;
+    transform: scaleX(1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* IMAGE */
+
+.img_content {
+    width: 550px;
+}

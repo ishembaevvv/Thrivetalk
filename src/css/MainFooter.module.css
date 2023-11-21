@@ -1,0 +1,27 @@
+.wrapper {
+    width: 873px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title td {
+    text-align: start;
+    color: #22356F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    top: -50px;
+}
+
+tr {
+    color: rgba(34, 53, 111, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+

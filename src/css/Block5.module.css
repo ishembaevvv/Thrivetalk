@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 106px;
+    width: 100%;
+    height: 700px;
+}
+
+.title {
+    color: #22356F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text {
+    color: #22356F;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text span {
+    color: #6CD3E1;
+}
+
+.mini {
+    color: #FAB63E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
